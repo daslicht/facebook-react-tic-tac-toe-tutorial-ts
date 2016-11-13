@@ -83,6 +83,7 @@ export class Game extends React.Component <GameProps,GameState>{
     return null;
   }
 
+
   jumpTo(move:number) {
     console.log('move',move)
     this.setState({
